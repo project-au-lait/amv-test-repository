@@ -13,7 +13,7 @@
       "linux": {
         "command": "./mvnw"
       },
-      "args": ["quarkus:dev"],
+      "args": ["quarkus:dev", "-P", "runnable"],
       "problemMatcher": []
     }
   ]
